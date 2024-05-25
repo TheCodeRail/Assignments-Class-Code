@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML-FORMS</title>
+  </head>
+  <body>
+    <h1>User Registration Form</h1>
+    <form>
+      <label>Username:</label>
+      <input type="text" name="usernmae" required placeholder="John Doe" />
+      <br /><br />
+      <label>Emails:</label>
+      <input type="email" name="email" required placeholder="dummy@gmail.com" />
+      <br /><br />
+      <label>Phone Number:</label>
+      <input type="number" name="phone number" required />
+      <br /><br />
+      <label>D.O.B:</label>
+      <input type="date" name="dom" />
+      <br /><br />
+      <label>Subjects:</label>
+      <br /><br />
+      <label>Maths:</label>
+      <input type="checkbox" name="maths" value="maths" />
+      <label>DBMS:</label>
+      <input type="checkbox" name="dbms" value="dbms" />
+      <label>OS:</label>
+      <input type="checkbox" name="os" value="os" />
+      <br /><br />
+      <label>Gender:</label>
+      <br /><br />
+      <label>Male:</label>
+      <input type="radio" name="gender" />
+      <label>Female:</label>
+      <input type="radio" name="gender" />
+      <br /><br />
+      <label>Your Location:</label>
+      <select>
+        <option value="delhi">Delhi</option>
+        <option value="bng">Banglore</option>
+        <option selected>Hyderabad</option>
+      </select>
+      <br /><br />
+      <label>Bio:</label>
+      <textarea rows="5" cols="50">Enter your bio</textarea>
+      <br /><br />
+      <input type="submit" value="submit" />
+      <input type="reset" value="reset" />
+    </form>
+  </body>
+</html>
