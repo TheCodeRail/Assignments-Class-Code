@@ -30,15 +30,12 @@ Design and create a personal profile page using HTML elements and attributes dis
 7. **Links:**
    - Insert a hyperlink (`<a>`) to your social media profile or personal website.
 
-8. **List of Skills:**
+8. **List of Skills:** (optional)
    - Create an ordered list (`<ol>`) or an unordered list (`<ul>`) of your skills or interests.
 
-9. **Multimedia:**
+9. **Multimedia:** (optional)
    - Embed a video (`<video>`) that you like or that represents your work/hobbies. Ensure the controls attribute is enabled.
    - Embed an audio (`<audio>`) element with controls, featuring a favorite song or a message from you.
 
-10. **Additional Features:**
+10. **Additional Features:** (optional)
     - Insert an iframe (`<iframe>`) that displays a relevant webpage, such as a favorite blog or an online portfolio.
-
-11. **Comments:**
-    - Include at least one HTML comment to explain a section of your code.
