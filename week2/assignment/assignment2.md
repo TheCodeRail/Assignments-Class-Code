@@ -62,6 +62,8 @@ Create a form (`<form>`) with the necessary attributes.
 ### 12. Form Buttons
 
 - Add submit buttons to the form.
+- On submitting the form it should another html page says thank you for filling the form
+- Create a new file thankyou.html and paste it in action attribute of form tag
 
 ### 13. Validation
 
