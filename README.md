@@ -1,2 +1,2 @@
 # Assignments-Class-Code
-This repo contains assignments and class code repo
+This repo contains assignments and week class codes
