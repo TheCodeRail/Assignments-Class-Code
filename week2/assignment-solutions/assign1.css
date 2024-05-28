@@ -1,0 +1,40 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.parent {
+    background-color: rgb(182, 119, 241);
+    display:flex;
+    justify-content: space-between;
+    padding:10px;   
+    width:800px;
+    height:500px;
+    border:5px solid black;
+}
+
+.child{
+    color:white;
+    width:400px; 
+    height:500px;
+    text-align: center; 
+    align-content: center; 
+    margin:0 5px;
+    background-color: aquamarine;
+}
+
+#child1{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(182, 119, 241) ;
+}
+
+.sub_child{
+    height:250px;
+    align-content: center; 
+    background-color: black;
+}
+
+
+
