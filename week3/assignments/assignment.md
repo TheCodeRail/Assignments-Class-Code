@@ -50,11 +50,36 @@ let users = [
 ### 13. Filter Out Overdue Tasks
 Given an array of task objects, each with a `description` and a `dueDate` property, write a function `filterOverdueTasks` that returns an array of tasks that are overdue. A task is considered overdue if the `dueDate` is earlier than the current date.
 
+```
+const tasks = [
+  { description: "Task 1", dueDate: "2024-06-05" },
+  { description: "Task 2", dueDate: "2024-06-10" },
+  { description: "Task 3", dueDate: "2024-05-25" },
+  { description: "Task 4", dueDate: "2024-06-01" },
+];
+```
+
 ### 14. Create List of Usernames
 Given an array of user objects, each with a `firstName` and `lastName` property, write a function `createUsernames` that returns an array of usernames. A username is created by concatenating the first letter of the `firstName` with the `lastName`, all in lowercase.
 
+```
+const users = [
+  { firstName: "John", lastName: "Doe" },
+  { firstName: "Emma", lastName: "Smith" },
+  { firstName: "Alex", lastName: "Johnson" },
+];
+```
+
 ### 15. Find Expensive Products
 Given an array of product objects, each with a `name` and `price` property, write a function `findExpensiveProducts` that returns the first product that costs more than a specified amount.
+
+```
+const products = [
+  { name: "Product 1", price: 50 },
+  { name: "Product 2", price: 100 },
+  { name: "Product 3", price: 75 },
+];
+```
 
 
 Notice- Try to use google instead of using ChatGpt
