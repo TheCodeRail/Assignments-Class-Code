@@ -1,4 +1,4 @@
-const data = document.getElementsByTagName("div")[1];
+const data = document.getElementsByTagName("div");
 console.log(data);
 
 // manipulating the context
