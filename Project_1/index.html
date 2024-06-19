@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=], initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Sorting Visualizer</title>
+  </head>
+  <body>
+    <main>
+      <div class="stats">
+        <div class="latest-report">
+          <div class="confirmed">
+            <div>
+              <input type="button" value="New Array" onclick="newArray()" />
+            </div>
+          </div>
+          <div class="active">
+            <div>
+              <input type="button" value="Sort Array" onclick="sortArray()" />
+            </div>
+          </div>
+        </div>
+        <div class="chart">
+          <canvas id="myChart"></canvas>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="
+https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js
+"></script>
+  <script src="index.js"></script>
+</html>
