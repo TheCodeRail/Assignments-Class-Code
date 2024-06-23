@@ -1,21 +1,27 @@
-import React, { Component } from "react";
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Link,
+  BrowserRouter,
+} from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import AboutMe from "./pages/AboutMe";
+import Contact from "./pages/Contact";
 
-export class App extends Component {
-  constructor() {
-    super();
-    this.state = { count: 0 };
-  }
-  inc = () => {
-    this.setState({ count: this.state.count + 1 });
-  };
-  render() {
-    return (
-      <>
-        <p>{this.state.count}</p>
-        <button onClick={this.inc}>increase</button>
-      </>
-    );
-  }
-}
+const App = () => {
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutMe />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+};
 
 export default App;
