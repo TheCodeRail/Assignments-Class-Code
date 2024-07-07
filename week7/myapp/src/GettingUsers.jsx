@@ -11,6 +11,7 @@ const GettingUsers = () => {
     const res = await axios.get("https://jsonplaceholder.typicode.com/users");
     setUsers(res.data);
   }
+
   function handleLogin() {
     setLogin(true);
   }
